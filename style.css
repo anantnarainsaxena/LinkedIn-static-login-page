@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+body{
+    background-color:#ffffff ;
+    
+}
+.subtag{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+nav{
+    padding: 2rem 10rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    background-color: white;
+    width: 390px;
+    border-radius: .5rem;
+    padding: 2rem 1.5rem;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+input{
+    width: 100%;
+    padding: 3px;
+    margin-bottom: 10px;
+
+    
+}
+label{
+    color: rgb(126, 126, 126);
+    display: block;
+}
+.terms{
+    text-align: center;
+    font-size: 10px;
+}
+.btn1{
+    width: 100%;
+    margin-top: 10px;
+    padding: .7rem;
+    border: none;
+    color: #fff;
+    background-color: rgb(9, 9, 195);
+    border-radius: 50px;
+    font-size: 15px;
+    
+}
+.sep{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(103, 101, 101);
+}
+.btn2{
+    
+    width: 100%;
+    margin-top: 10px;
+    padding: .7rem;
+    border: 2px solid blue;
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    font-size: 15px;
+}
+.alr{
+    text-align: center;
+    padding: 10px;
+}
+.foot{
+    display: flex;
+    padding: 2rem 10rem;
+    justify-content: space-between;
+}
+footer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   
+   text-align: center;
+}
